@@ -15,7 +15,7 @@ function App() {
          </div>
      <Routes>
  
-      <Route path="/" element={<Home/>}/>
+      <Route path="/movie-detailas-redux-web" element={<Home/>}/>
       <Route path="/movie/:id" element={<MovieDetail/>} />
       <Route element={<PageNotFound/>} />
     
